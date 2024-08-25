@@ -2,3 +2,20 @@
      font-family: "Manrope", sans-serif;
      font-optical-sizing: auto;
  }
+
+
+ @media screen and (max-width:576px) {
+    .card-body{
+        padding: .3rem;
+        gap: .2rem;
+    }
+ }
+
+  @media screen and (min-width:1024px) and (max-width:1050px) {
+      .card-body {
+          padding: .5rem;
+      }
+
+      
+  }
+
