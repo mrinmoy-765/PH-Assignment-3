@@ -5,9 +5,11 @@
 
 
  @media screen and (max-width:576px) {
-    .card-body{
-        padding: .3rem;
+    .commercial,
+    .residential{
+        padding: 1rem;
         gap: .3rem;
+        width: fit-content;
     }
  }
 
